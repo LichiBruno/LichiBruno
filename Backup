@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lichi Bruno</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="components/Loader.css" />
+    <link rel="stylesheet" href="components/Header.css" />
+    <link rel="stylesheet" href="components/NavBar.css" />
+    <link rel="stylesheet" href="components/AboutMe.css" />
+    <link rel="stylesheet" href="components/Projects.css" />
+    <link rel="stylesheet" href="components/Skills.css" />
+    <link rel="stylesheet" href="components/Contact.css" />
+  </head>
+  <body>
+    <!-- loader -->
+    <div id="loading" class="loader-container">
+      <span class="loader one"></span>
+      <span class="loader two"></span>
+    </div>
+    <!-- COVER -->
+    <header class="cover" id="cover">
+      <video
+        class="video"
+        src="multimedia/cover_video.mp4"
+        loop
+        autoplay
+        muted
+      ></video>
+      <h1>Lichi Bruno</h1>
+      <p>Web Developer</p>
+      <span class="scrollDown">
+        <a href="#about-me">
+          <svg
+            width="100"
+            height="50"
+            viewBox="0 0 100 50"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="Group 1">
+              <path
+                fill="currentColor"
+                id="lineas (Stroke)"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M18.6145 1.68161C18.7903 1.46869 19.1055 1.43864 19.3184 1.61448L50.4769 27.3474L80.6757 1.6194C80.8859 1.44032 81.2015 1.46554 81.3806 1.67574C81.5597 1.88595 81.5345 2.20152 81.3243 2.3806L50.8061 28.3806C50.6215 28.5379 50.3505 28.54 50.1635 28.3855L18.6816 2.38552C18.4687 2.20968 18.4386 1.89453 18.6145 1.68161Z"
+                fill="black"
+              />
+              <path
+                fill="currentColor"
+                id="lineas (Stroke)_2"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M18.6145 11.6816C18.7903 11.4687 19.1055 11.4386 19.3184 11.6145L50.4769 37.3474L80.6757 11.6194C80.8859 11.4403 81.2015 11.4655 81.3806 11.6757C81.5597 11.8859 81.5345 12.2015 81.3243 12.3806L50.8061 38.3806C50.6215 38.5379 50.3505 38.54 50.1635 38.3855L18.6816 12.3855C18.4687 12.2097 18.4386 11.8945 18.6145 11.6816Z"
+                fill="black"
+              />
+              <path
+                fill="currentColor"
+                id="lineas (Stroke)_3"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M18.6145 21.6816C18.7903 21.4687 19.1055 21.4386 19.3184 21.6145L50.4769 47.3474L80.6757 21.6194C80.8859 21.4403 81.2015 21.4655 81.3806 21.6757C81.5597 21.8859 81.5345 22.2015 81.3243 22.3806L50.8061 48.3806C50.6215 48.5379 50.3505 48.54 50.1635 48.3855L18.6816 22.3855C18.4687 22.2097 18.4386 21.8945 18.6145 21.6816Z"
+                fill="black"
+              />
+            </g>
+          </svg>
+        </a>
+      </span>
+    </header>
+
+    <!-- NAVBAR -->
+    <nav id="show-nav" class="navbar">
+      <span id="span">
+        <a href="#cover">Lichi Bruno</a>
+        <a href="#about-me">About</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" id="contact">Contacto</a>
+      </span>
+      <div class="show-menu">
+        <svg
+          class="menu-icon"
+          height="32"
+          viewBox="0 0 426.66667 426.66667"
+          width="32"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="currentcolor"
+            d="m405.332031 192h-170.664062v-170.667969c0-11.773437-9.558594-21.332031-21.335938-21.332031-11.773437 0-21.332031 9.558594-21.332031 21.332031v170.667969h-170.667969c-11.773437 0-21.332031 9.558594-21.332031 21.332031 0 11.777344 9.558594 21.335938 21.332031 21.335938h170.667969v170.664062c0 11.777344 9.558594 21.335938 21.332031 21.335938 11.777344 0 21.335938-9.558594 21.335938-21.335938v-170.664062h170.664062c11.777344 0 21.335938-9.558594 21.335938-21.335938 0-11.773437-9.558594-21.332031-21.335938-21.332031zm0 0"
+          />
+        </svg>
+      </div>
+    </nav>
+    <!-- ABOUT ME -->
+    <div class="about-me" id="about-me">
+      <div class="animation" id="animation">
+        <div>
+          <h2>Déjame contarte quién soy</h2>
+          <p>
+            Soy desarrollador web autodidacta, comencé a estudiar a fines de 2020.
+            Estoy adentrado en el mundo de las criptomonedas y Blockchain desde 2017.
+            Actualmente estoy trabajando en distintos proyectos que sean parte del
+            ecosistema Blockchain.
+          </p>
+        </div>
+      </div>
+      <div class="about-me-footer" id="about-me-footer">
+        <h3>Intereses:</h3>
+        <section>
+          <li>Bitcoin</li>
+          <li>Blockchain</li>
+          <li>Música</li>
+          <li>Política</li>
+        </section>
+      </div>
+    </div>
+    <!-- PROJECTS -->
+    <div class="projects-container" id="projects">
+      <span id="projects-text">
+        <h2>Mis proyectos</h2>
+        <p>
+          En esta sección están todos mis proyectos.
+        </p>
+      </span>
+      <!-- <section id="projects-list">
+        <a href="/page-404/" target="_blank" rel="noreferrer">
+          <img src="multimedia/404-page.png" alt="project 1 card" />
+          <div>
+            <h3>404 Single Error Page</h3>
+            <p>
+              This project was done with React.js and SASS.<br /><br /><b
+                >(ANIMATED)</b
+              >
+            </p>
+          </div>
+        </a>
+        <a href="/to-do-list/" target="_blank" rel="noreferrer">
+          <img src="multimedia/ToDo.PNG" alt="project 2 card" />
+          <div>
+            <h3>To Do List React App</h3>
+            <p>This project was done with React.js and SASS.</p>
+          </div>
+        </a>
+        <a href="/weather-react-app/" target="_blank" rel="noreferrer">
+          <img src="multimedia/weather-app.PNG" alt="project 3 card" />
+          <div>
+            <h3>Weather React.js App</h3>
+            <p>
+              This project was done with React.js, JSX, SASS and OpenWeatherMap
+              API.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://codesandbox.io/embed/empty-star-h0p3v?fontsize=14&hidenavigation=1&theme=dark"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="multimedia/calculator.png" alt="project 4 card" />
+          <div>
+            <h3>Basic Calculator</h3>
+            <p>
+              This project was done with React.js, JavaScript (ES6+), HTML5,
+              CSS3 and SASS.
+            </p>
+          </div>
+        </a>
+        <a
+          href="https://codesandbox.io/embed/vigilant-kepler-i2u4n?fontsize=14&hidenavigation=1&theme=dark"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="multimedia/CaribeSStore.png" alt="project 5 card" />
+          <div>
+            <h3>Caribe Sstore Gallery</h3>
+            <p>
+              This project was done with React.js, JavaScript (ES6+), HTML5,
+              CSS3, SASS and JSON.
+            </p>
+          </div>
+        </a>
+      </section> -->
+    </div>
+    <!-- SKILLS -->
+    <div class="skills-container" id="skills">
+      <span id="skills-text">
+        <h2>Skills</h2>
+        <p>Aquí están todos los lenguajes con los que trabajo.</p>
+      </span>
+
+      <section id="languages">
+        <ul>
+          <li>
+            <img src="multimedia/react.png" alt="react.js logo" />
+            <p>React.js</p>
+          </li>
+          <li>
+            <img src="multimedia/html.png" alt="html logo" />
+            <p>HTML</p>
+          </li>
+          <li>
+            <img src="multimedia/css.png" alt="css logo" />
+            <p>CSS</p>
+          </li>
+          <li>
+            <img src="multimedia/javascript.png" alt="javascript logo" />
+            <p>JavaScript</p>
+          </li>
+          <li>
+            <img src="multimedia/git.png" alt="git logo" />
+            <p>Git</p>
+          </li>
+          <li>
+            <img src="multimedia/github.png" alt="github logo" />
+            <p>GitHub</p>
+          </li>
+          <li>
+            <img src="multimedia/node.png" alt="node.js logo" />
+            <p>Node.js</p>
+          </li>
+          <li>
+            <img src="multimedia/sass.png" alt="sass logo" />
+            <p>Sass</p>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <!-- CONTACT -->
+    <div class="contact-container">
+      <span class="shadow">
+        <div class="social-media" id="contact-animation">
+          <a href="mailto:Lichiii@pm.me">
+            <svg>
+              <rect></rect>
+            </svg>
+            Mail
+          </a>
+          <span class="quote"> "People who get offended should be offended" </span>
+          <section>
+            <ul>
+              <li>
+                <a
+                  href="https://github.com/LichiBruno"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="LichiBruno on GitHub"
+                >
+                  <svg
+                    id="Bold"
+                    enable-background="new 0 0 24 24"
+                    height="40"
+                    viewBox="0 0 24 24"
+                    width="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m12 .5c-6.63 0-12 5.28-12 11.792 0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56 4.801-1.548 8.236-5.97 8.236-11.173 0-6.512-5.373-11.792-12-11.792z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="http://t.me/LichiBruno"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Lichi Bruno on Telegram"
+                >
+                  <svg 
+                  id="Bold"
+                  enable-background="new 0 0 24 24"
+                  height="40"
+                  viewBox="0 0 24 24"
+                  width="40"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path 
+                      d="m12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12c0-6.627-5.373-12-12-12zm5.894 8.221-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://twitter.com/LichiBruno"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Lichi Bruno on Twitter"
+                >
+                  <svg
+                  id="Bold"
+                  enable-background="new 0 0 24 24"
+                  height="40"
+                  viewBox="0 0 20 20"
+                  width="40"
+                  xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path 
+                      d="M10 .4C4.698.4.4 4.698.4 10s4.298 9.6 9.6 9.6 9.6-4.298 9.6-9.6S15.302.4 10 .4zm3.905 7.864c.004.082.005.164.005.244 0 2.5-1.901 5.381-5.379 5.381a5.335 5.335 0 0 1-2.898-.85c.147.018.298.025.451.025.886 0 1.701-.301 2.348-.809a1.895 1.895 0 0 1-1.766-1.312 1.9 1.9 0 0 0 .853-.033 1.892 1.892 0 0 1-1.517-1.854v-.023c.255.141.547.227.857.237a1.89 1.89 0 0 1-.585-2.526 5.376 5.376 0 0 0 3.897 1.977 1.891 1.891 0 0 1 3.222-1.725 3.797 3.797 0 0 0 1.2-.459 1.9 1.9 0 0 1-.831 1.047 3.799 3.799 0 0 0 1.086-.299 3.834 3.834 0 0 1-.943.979z"
+                      />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </span>
+      <div class="info-contact">
+        <h1>Lichi Bruno</h1>
+        <div>
+          <p>Based on &nbsp</p>
+          <p></p>
+          <ul>
+            <li>SMA</li>
+            <li>the World</li>
+            <li>🇦🇷</li>
+          </ul>
+        </div>
+        <span> "People who get offended should be offended" </span>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
